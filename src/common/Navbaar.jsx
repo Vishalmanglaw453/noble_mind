@@ -19,7 +19,7 @@ const Navbaar = () => {
       <div className="container container2 w-100 py-19">
         <nav className=" d-flex align-items-center justify-content-between pt-24 pb-23    ">
           <div>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className=" cursor-pointer" />
           </div>
           <ul
             className={`${

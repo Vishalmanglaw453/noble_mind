@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="container container2 pt-52">
           <div className=" row justify-content-between">
             <div className="col-md-4 col-12 d-flex flex-column align-items-center align-items-md-start">
-              <img  src={logo} alt="logo" />
+              <img  src={logo} alt="logo" className=" cursor-pointer" />
               <p  className=" font-exo fw-normal pt-28 pb-2 mb-0 text-16  lh-24 text-white">
                 Follow Us
               </p>

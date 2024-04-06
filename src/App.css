@@ -340,7 +340,9 @@ img[alt="contact"] {
   scale: unset;
   transition: .6s ease-out;
 }
-
+.cursor-pointer{
+  cursor: pointer;
+}
 .svg_box {
   border: 1px solid #FDFDFF;
   height: 44px;
