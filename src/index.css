@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --fs-sm: 14px;
+  --fs-md: 13px;
+  --fs-lg: 20px;
+  --fs-xl: 38px;
+  --fs-2xl: 33px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-exo {
+  font-family: "Exo 2", sans-serif;
+}
+
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.font-mon {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lite-black {
+  color: #131200;
+}
+
+.op_7 {
+  opacity: 70%;
+}
+
+.white2 {
+  color: #FDFDFF;
+}
+
+.text-14 {
+  font-size: var(--fs-sm);
+}
+
+.text-16 {
+  font-size: var(--fs-md);
+}
+
+.text-20 {
+  font-size: var(--fs-lg);
+}
+
+.text-48 {
+  font-size: var(--fs-xl);
+}
+
+.text-64 {
+  font-size: var(--fs-2xl);
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-76 {
+  line-height: 76.8px;
+}
+
+.lh-70 {
+  line-height: 46.4px;
+}
+
+.lh-57 {
+  line-height: 39px;
+}
+
+.lh-25 {
+  line-height: 25.2px;
+}
+
+.lh-21 {
+  line-height: 21px;
+}
+
+@media (min-width:576px) {
+  :root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 48px;
+    --fs-2xl: 64px;
+  }
+
+  .lh-24 {
+    line-height: 24px;
+  }
+
+  .lh-76 {
+    line-height: 76.8px;
+  }
+
+  .lh-70 {
+    line-height: 70.4px;
+  }
+
+  .lh-57 {
+    line-height: 57px;
+  }
+
+  .lh-25 {
+    line-height: 25.2px;
+  }
+
+  .lh-21 {
+    line-height: 21px;
+  }
 }

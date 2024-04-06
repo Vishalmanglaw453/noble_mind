@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Hero from "./componets/Hero";
+import About from "./componets/About";
+import Choose from "./componets/Choose";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Contact from "./componets/Contact";
+import Frequently from "./componets/Frequently";
+import Footer from "./componets/Footer";
+import Subscribe from "./componets/Subscribe";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({ once: true, duration: 2500 });
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <About/>
+      <Choose/>
+      <Contact/>
+      <Frequently/>
+      <Subscribe/>
+      <Footer/>
+
     </div>
   );
 }
